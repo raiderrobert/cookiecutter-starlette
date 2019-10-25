@@ -4,6 +4,7 @@ from starlette.applications import Starlette
 from starlette.middleware.session import SessionMiddleware
 from starlette.middleware.trustedhost import TrustedHostMiddleware
 from starlette.responses import JSONResponse
+from starlette.staticfiles import StaticFiles
 
 import settings
 
